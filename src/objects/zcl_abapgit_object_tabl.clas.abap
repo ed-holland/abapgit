@@ -864,6 +864,7 @@ CLASS ZCL_ABAPGIT_OBJECT_TABL IMPLEMENTATION.
       EXPORTING
         name          = lv_name
         langu         = mv_language
+        state         = 'M'
       IMPORTING
         dd02v_wa      = ls_dd02v
         dd09l_wa      = ls_dd09l
